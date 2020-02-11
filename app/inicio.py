@@ -1,5 +1,5 @@
 #imprmir info na tela #(comentario)
-CNTRLK  CNTRLC
+#CNTRLK  CNTRLC
 #print('/n') #e pular linha
 #print('*' 50 )
 #print("olá joelma do calipso")
@@ -7,15 +7,16 @@ CNTRLK  CNTRLC
 #print("/n")
 
 
-# pegar entrada do usuario
-input('digite seu nome')
-input('digite seu sobrenome')
+#------ pegar entrada do usuario
+ nome = input('Digite seu nome: ') ler
+sobrenome = input ('digite seu sobrenome: ')
 
 
-#usando format para concatenaçao de string
-print('ola',format( nome,sobrenome))
+#----usando a funçao format para concatenaçaode string
+print ('ola {} {}' .format(nome,sobrenome))
 
-#interpolaçao de string
-print( f'ola {nome} {sobrenome}')
+#------interpretaçao de strings
+print(f'ola {nome} {sobrenome}')
 
- 
+idade = (input('digite a idade'))
+print(idade)
